@@ -15,7 +15,7 @@ object main {
   }
 
   def volumeOfSphere(radius:Double): Unit = {
-    val volume :Double = (4/3) * math.Pi * math.pow(radius,3)
+    val volume :Double = (4.0/3) * math.Pi * math.pow(radius,3)
     println( s"Volume of sphere is : $volume" )
   }
 
